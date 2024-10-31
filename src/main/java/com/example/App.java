@@ -8,9 +8,9 @@ public class App {
 
   public static void main(String[] args) {
     // Database URL, username, and password
-    String url = "jdbc:postgresql://localhost:5432/testdb"; // Change to your database URL
-    String user = "postgres"; // Change to your username
-    String password = "your_password"; // Change to your password
+    String url = "jdbc:postgresql://localhost:5432/wannaseesomething"; // Change to your database URL
+    String user = "admin"; // Change to your username
+    String password = "admin123"; // Change to your password
 
     try (Connection conn = DriverManager.getConnection(url, user, password)) {
       if (conn != null) {
@@ -21,3 +21,4 @@ public class App {
     }
   }
 }
+// "Host=localhost;Port=5432;Database=event-db;Username=admin;Password=admin123"
